@@ -18,5 +18,6 @@ public class Message {
     private Long id;
     private Long user_id;
     private Long chat_id;
-    private char text;
+    private String text;
+
 }

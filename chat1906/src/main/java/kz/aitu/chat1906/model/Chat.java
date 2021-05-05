@@ -16,6 +16,6 @@ public class Chat {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private char name;
+    private String name;
 
 }
